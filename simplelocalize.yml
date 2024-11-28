@@ -1,0 +1,10 @@
+apiKey: YOUR_PROJECT_API_KEY
+uploadFormat: po-pot
+uploadLanguageKey: en
+uploadPath: ./locale/en/LC_MESSAGES/django.po
+uploadOptions:
+  - REPLACE_TRANSLATION_IF_FOUND
+
+downloadFormat: po-pot
+downloadLanguageKeys: ['pl', 'fr', 'es']
+downloadPath: ./locale/{lang}/LC_MESSAGES/django.po
